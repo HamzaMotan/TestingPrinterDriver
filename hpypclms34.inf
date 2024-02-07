@@ -1,0 +1,163 @@
+[Version]
+Signature="$Windows NT$"
+Provider=%HP%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+DriverVer=09/13/2020,34.01.2003.8366
+CatalogFile=hpypclms34.cat
+[Manufacturer]
+%HP%=HP,NTx86.6.1,NTamd64.6.1,NTx86.6.2,NTamd64.6.2,NTx86.6.3,NTamd64.6.3
+[HP.NTx86.6.1]
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,USBPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,WSDPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,MF\LaserJet_MFP_M139-M142&WSD&IP_PRINT
+[HP.NTamd64.6.1]
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,USBPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,WSDPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,MF\LaserJet_MFP_M139-M142&WSD&IP_PRINT
+[HP.NTx86.6.2]
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,USBPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,WSDPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,MF\LaserJet_MFP_M139-M142&WSD&IP_PRINT
+[HP.NTamd64.6.2]
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,USBPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,WSDPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,MF\LaserJet_MFP_M139-M142&WSD&IP_PRINT
+[HP.NTx86.6.3]
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,USBPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,WSDPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,MF\LaserJet_MFP_M139-M142&WSD&IP_PRINT
+[HP.NTamd64.6.3]
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,USBPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,WSDPRINT\HPHP_LaserJet_MFP_M15eaa
+"HP LaserJet MFP M139-M142 PCLmS"=INSTALL_PCLM_LJ139-142,MF\LaserJet_MFP_M139-M142&WSD&IP_PRINT
+[INSTALL_PCLM_LJ139-142]
+CopyFiles=@hppclms_139-142.gpd,@hppclms_139-142_features.gpd,@hptps-pipelineconfig.xml,@hpbmtxr34.dll,PEPTO_CONNECTOR,HP_UNIDRV,UNI,XPSRasPCLms,AUTO_CONFIG,COINST_FILES,LMDRV_FILES,LM_FILES
+DriverFile=mxdwdrv.dll
+ConfigFile=UniDrvUI.dll
+HelpFile=UniDrv.HLP
+DataFile=hppclms_139-142.gpd
+FeatureScore=0x06
+CoreDriverSections="{D20EA372-DD35-4950-9ED8-A6335AFE79F0},XPSGPD.OEM","{D20EA372-DD35-4950-9ED8-A6335AFE79F5},XPSDRV.OEM"
+CopyINF=HPRestStub.inf,HPeSCLScan.inf
+LanguageMonitor="HP 0372 Status Monitor,hpinksts0372LM.dll"
+[PEPTO_CONNECTOR]
+HPPdsmqConnector34.exe
+HPPdsmqConnector34.PdsmqConfig.xml
+[HP_UNIDRV]
+UNIDRV.DLL,UNIDRV.DLL,,0x00000020
+UNIRES.DLL,UNIRES.DLL,,0x00000020
+UNIDRVUI.DLL,UNIDRVUI.DLL,,0x00000020
+STDNAMES.GPD,STDNAMES.GPD,,0x00000020 
+STDDTYPE.GDL,STDDTYPE.GDL,,0x00000020
+STDSCHEM.GDL,STDSCHEM.GDL,,0x00000020
+STDSCHMX.GDL,STDSCHMX.GDL,,0x00000020
+UNIDRV.HLP,UNIDRV.HLP,,0x00000020
+LOCALE.GPD,LOCALE.GPD,,0x00000020
+[UNI]
+mxdwdrv.dll
+xpssvcs.dll
+[XPSRasPCLms]
+hpygidMN34.gpd
+hpygiddrv34.dll
+hpygidUI34.dll
+hpygidres34.dll
+hpUIMDDialog34.dll
+MSXPSINC.GPD
+hpygid34.ini
+[AUTO_CONFIG]
+hpygidEWUDataMap.xml
+hpygidDataMap.xml
+hpbuio.dll
+hpygidudm.dll
+[SourceDisksFiles]
+hppclms_139-142.gpd=100
+hppclms_139-142_features.gpd=100
+hptps-pipelineconfig.xml=100
+HPPdsmqConnector34.PdsmqConfig.xml=100
+STDNAMES.GPD=100
+STDDTYPE.GDL=100
+STDSCHEM.GDL=100
+STDSCHMX.GDL=100
+LOCALE.GPD=100
+hpygidMN34.gpd=100
+MSXPSINC.GPD=100
+hpygid34.ini=100
+hpygidEWUDataMap.xml=100
+hpygidDataMap.xml=100
+[SourceDisksFiles.amd64]
+hpbmtxr34.dll=102
+HPPdsmqConnector34.exe=102
+UNIDRV.DLL=102
+UNIRES.DLL=102
+UNIDRVUI.DLL=102
+UNIDRV.HLP=102
+mxdwdrv.dll=102
+xpssvcs.dll=102
+hpygiddrv34.dll=102
+hpygidUI34.dll=102
+hpygidres34.dll=102
+hpUIMDDialog34.dll=102
+hpbuio.dll=104
+hpygidudm.dll=104
+hpinkcoi0372.dll=102
+hpinkins0372.exe=102
+hpinksts0372LM.dll=102
+hpinksts0372.dll=102
+[SourceDisksFiles.x86]
+hpbmtxr34.dll=101
+HPPdsmqConnector34.exe=101
+UNIDRV.DLL=101
+UNIRES.DLL=101
+UNIDRVUI.DLL=101
+UNIDRV.HLP=101
+mxdwdrv.dll=101
+xpssvcs.dll=101
+hpygiddrv34.dll=101
+hpygidUI34.dll=101
+hpygidres34.dll=101
+hpUIMDDialog34.dll=101
+hpbuio.dll=103
+hpygidudm.dll=103
+hpinkcoi0372.dll=101
+hpinkins0372.exe=101
+hpinksts0372LM.dll=101
+hpinksts0372.dll=101
+[SourceDisksNames]
+100=%Location%
+102=%Location%,,,amd64
+101=%Location%,,,i386
+104=%Location%,hpgidudmio_x64.cab,,amd64
+103=%Location%,hpgidudmio_x86.cab,,i386
+[DestinationDirs]
+DefaultDestDir=66000
+COINST_FILES=11             ; Copy CoInstaller files to system32
+LM_FILES=66002              ; Copy LM files to driver folder for Vista and beyond
+LM_FILES_XP=66002
+[Strings]
+Location="HP XPS PCLms Driver"
+HP="HP"
+[INSTALL_PCLM_LJ139-142.CoInstallers]
+AddReg=hp_CoInstaller_LM139_addReg
+CopyFiles=COINST_FILES
+[INSTALL_PCLM_LJ139-142.Services]
+AddService=,0x2    ; no value for the service name
+[hp_CoInstaller_LM139_addReg]
+HKR,,CoInstallers32,0x00010000,"hpinkcoi0372.dll,CoDeviceInstall"
+HKR,,SoftwareRegPath,,"Software\HP\InstalledProducts\{8F9A5AEF-D655-4031-B6EA-1AED41B49C61}"
+HKR,,ModelName,,"HP LaserJet MFP M139-M142"
+[SourceInfo]
+SourceDirectory=%1%
+[COINST_FILES]
+hpinkcoi0372.dll
+hpinkins0372.exe
+[LMDRV_FILES]
+hpinksts0372LM.dll
+hpinksts0372.dll
+[LM_FILES]
+hpinksts0372LM.dll
+[LM_FILES_XP]
+hpinksts0372LM.dll
+hpinksts0372.dll
+[AdditionalDependencies]
+DOT_NET_3_0=Y
